@@ -1,2 +1,11 @@
+# Core Manim library (Community Edition) for mathematical animations
+# Installed via: pip install manim
 manim>=0.18.0
+
+# Numerical operations, arrays, and matrix math used heavily in Manim scenes
+# Installed via: pip install numpy
 numpy>=1.24.0
+
+# Note: System-level dependencies (FFmpeg, LaTeX/MiKTeX, Pango, Cairo) 
+# must be installed separately via OS package managers (Chocolatey, Homebrew, apt).
+# See README.md for full installation instructions.

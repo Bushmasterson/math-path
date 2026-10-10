@@ -1,4 +1,4 @@
-# bush-math
+# math-path
 
 > Mathematical animations built with [Manim](https://www.manim.community/) — visual explanations of concepts I'm learning.
 
@@ -12,8 +12,8 @@
 ## Install
 
 ```bash
-git clone https://github.com/Bushmasterson/bush-math.git
-cd bush-math
+git clone https://github.com/Bushmasterson/math-path.git
+cd math-path
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1   # Windows
 pip install manim
@@ -37,7 +37,7 @@ Output goes to `media/videos/`.
 ## Structure
 
 ```
-bush-math/
+math-path/
 ├── scenes/         # Manim scenes, one file per concept
 ├── media/          # rendered output (gitignored)
 ├── manim.cfg       # render settings (4K, 90 fps, black bg)
